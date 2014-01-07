@@ -1,4 +1,2 @@
-mattchiang777.github.io
+Relevant files and data for my personal website.
 =======================
-
-My website
