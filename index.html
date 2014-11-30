@@ -5,138 +5,14 @@
         <meta charset="utf-8" />
         <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Dosis:500' rel='stylesheet' type='text/css'>
-        <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
-        <!--local development library<script type="text/javascript" src="js/jquery-2.0.3.js"></script>-->
-        <script type="text/javascript" src="js/jquery.scrollUp.min.js"></script>
-        <script>
-            $(function() {
-                $.scrollUp({
-                    scrollName: 'scrollUp', // Element ID
-                    topDistance: '300', // Distance from top before showing element (px)
-                    topSpeed: 300, // Speed back to top (ms)
-                    animation: 'fade', // Fade, slide, none
-                    animationInSpeed: 200, // Animation in speed (ms)
-                    animationOutSpeed: 200, // Animation out speed (ms)
-                    scrollText: '', // Text for element
-                    activeOverlay: false, // Set CSS color to display scrollUp active point, e.g '#00FFFF'
-                });
-            });
-        </script>
         <link rel="stylesheet" href="css/normalize.css">
         <link type="text/css" rel="stylesheet" href="css/style.css">
     </head>
     <body>
-        <header id="header-wrap">
-            <div class="container">
-                <div class="profile">
-                    <img src="img/profile.jpg" title="profile" alt="profilepic">
-                    <h1 id="matt">Matt Chiang<br>
-                        <span class="secondline">Poo-tee-weet?</span>
-                    </h1>
-                </div>
-                <div class="navdiv">
-                    <nav>
-                        <ul class="nav">
-                            <li class="menu"><a href="#about" title="About Me">About</a></li>
-                            <li class="menu"><a href="#projects" title="My Projects">Projects</a></li>
-                            <li class="menu"><a href="#misc" title="Random things">Misc.</a></li>
-                            <li class="menu"><a href="#contact" title="Get in touch">Contact</a></li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-        </header> <!--header-wrap complete-->
-        <div>
-            <table class="matrix">
-                <thead>
-                    <th colspan="3" id="tableheader">Eisenhower Decision Matrix</th>
-                    <hr></hr>
-                    <tr>
-                        <td></td>
-                        <th class="urgentrow">Urgent</th>
-                        <th class="urgentrow">Not Urgent</th>
-                    </tr>
-                </thead>
-                <tr>
-                    <td id="important">Important</td>
-                    <td id="quad1">
-                        <ul class="quadrant">
-                            <li>Crises</li>
-                            <li>Deadlines</li>
-                            <li>Problems</li>
-                        </ul>
-                    </td>
-                    <td id="quad2">
-                        <ul class="quadrant">
-                            <li>Relationships</li>
-                            <li>Dreams and Goals</li>
-                            <li>Recreation</li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td id="notimportant">Not Important</td>
-                    <td id="quad3">
-                        <ul class="quadrant">
-                            <li>Interruptions</li>
-                            <li>Notifications</li>
-                            <li>Unexpected Favors</li>
-                        </ul>
-                    </td>
-                    <td id="quad4">
-                        <ul class="quadrant">
-                            <li>Time Wasters</li>
-                            <li>Scrolling Through Feeds</li>
-                            <li>Dicking Around</li>
-                        </ul>
-                    </td>
-                </tr>
-            </table>
-            <div>
-                <h1><hr id="about">About</hr></h1>
-                <table>
-                    <tr>
-                        <td id="aboutcol1">
-                            <p class="about">Welcome! I'm a 3rd year at UC Berkeley majoring in Industrial Engineering and Operations Research and minoring in Love and in Computer Science. I like to take advantage of unsuspecting froyo shops next to my home of 3109 Etcheverry Hall. That is also where I teach my philosophy/mathematics class called Philosophy 214 - Mattuhmatiks. It is about space-time dimensions, chaos theory, and panic buttons. Run through the tape. In life. Never give up.</p>
-                        </td>
-                        <td id ="aboutcol2">
-                            <p class="about">These words are sorta hard to read. I once did hot prikam yoga surrounded by a bunch of sweaty girls in Brooklyn and accidentally left a piece of myself in the 4th dimension via astral projection. I'm also learning design and whatever that entails by reading, asking, and doing. I have a decent understanding of Javascript and jQuery, but I know Python, HTML/CSS, and conversational Mandarin much better. The two columns are now even, I think. I am the master.</p>
-                        </td>
-                    </tr>
-                </table>
-            </div>
-            <h1><hr id="projects">Projects</hr></h1>
-                <a href="http://drakesadvice.herokuapp.com/"><img class="drakesadvice" src="img/drakesadvice.png" alt="Click to go to drakesadvice"></a>
-                    <p class="projecttitle">Drake's Advice</p>
-                    <p class="projectdate">October 2013</p>
-                <ul class="projectdetails">
-                    <li>Facebook NorCal Regional Hackathon</li>
-                    <li>Developed in Python and utilized Flask and Heroku in developing the application</li>
-                    <li>Created a database of Drake’s lyrics and incorporated functional programming and list processing and manipulation in developing a generator that outputs lyric couplets</li>
-                </ul>
-                <a href="https://www.facebook.com/MarkMullanEvents"><img class="markmullan" src="img/markmullan.png" alt="Click to go to MME"></a>
-                    <p class="projecttitle">Mark Mullan Events</p>
-                    <p class="projectdate">September-December 2013</p>
-                <ul class="projectdetails">
-                    <li>Worked in a team of eight in designing a database for a food catering start-up for IEOR 115: Industrial and Commercial Data Systems</li>
-                    <li>Created a relational database schema and converted it into a comprehensive Enhanced Entity-Relationship diagram model</li>
-                    <li>Implemented and normalized a database in Microsoft Access that could also be easily used by the client through built-in forms</li>
-                    <li>Developed five business-related queries that benefit the client by querying necessary data with SQL and then analyzing the data externally via Microsoft Excel, Python, and R.</li>
-                </ul>
-            <h1><hr id="misc">Miscellaneous</hr></h1>
-                <div id="wefashion">
-                    <img src="img/wefashion.png" title="Photo cred: http://instagram.com/juuustinlambbb">
-                    <p>So fashion . Much circle . Wow . #wefashion</p>
-                </div>
-            <div class="icons">
-                <h1><hr id="contact">Contact</hr></h1>
-                <ul class="contact_icons">
-                    <li><a href="mailto:mattchiang777@gmail.com"><img id="email" src="img/email.png" alt="Click to email me!" title="Email me!"></a></li>
-                    <li><a href="https://www.facebook.com/matthew.r.chiang"><img id="facebook" src="img/facebook.png" alt="Click to Facebook me!" title="Facebook me!"></a></li>
-                    <li><a href="http://www.twitter.com/phattyphresh"><img id="twitter" src="img/twitter.png" alt="Click to tweet me!" title="Tweet me!"></a></li>
-                    <!--<li><a href="#"><img id="github" src="img/githubcopy.png"></a></li>-->
-                </ul>
-            </div>
+       <div id="wdd">
+            <a href="tt-redesign/html/index.html">
+                WDD Final Project
+            </a>
         </div>
     </body>
 </html>
