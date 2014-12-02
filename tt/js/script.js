@@ -7,7 +7,7 @@ $(document).ready(function() {
          
         if (scrollTop > stickyNavTop) { 
             $('#navbar').addClass('sticky');
-            $("#container").css("margin-top", "111px");
+            $("#container").css("margin-top", "91px");
         } else {
             $('#navbar').removeClass('sticky'); 
             $("#container").css("margin-top", "0px");
