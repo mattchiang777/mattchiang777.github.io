@@ -1,7 +1,9 @@
 body {
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
-  text-rendering: optimizeLegibility; }
+  text-rendering: optimizeLegibility;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300; }
 
 a,
 a:visited,
@@ -13,6 +15,7 @@ a:hover {
   text-decoration: none; }
 
 .container {
+  position: relative;
   padding-top: 5px;
   width: 100%;
   height: 100%;
@@ -22,20 +25,24 @@ a:hover {
 ======================================= */
 .about-box {
   background-color: #333333;
-  padding: 10% 10% 0 10%; }
+  padding: 10%; }
 
-.about-header {
-  margin-top: 50px; }
+.about-header-container {
+  width: 800px;
+  height: 165px;
+  background-image: url("../img/pink-dolphin-feature-image.jpg");
+  background-repeat: no-repeat; }
 
 .about-tagline {
   margin: 50px 0;
-  color: #e3e3e3; }
+  color: #787878;
+  font-size: 30px; }
 
 .about-desc {
-  color: #e5e5e5;
+  color: #a9a9a9;
   max-width: 640px;
-  padding-right: 5%;
-  padding-bottom: 5%; }
+  line-height: 1.3;
+  font-size: 18px; }
 
 /* Portfolio
 ======================================= */
@@ -44,7 +51,7 @@ a:hover {
   width: 100%;
   height: 100%;
   background-color: white;
-  right: 100%; }
+  left: -100%; }
 
 .project1-box {
   position: relative;
@@ -53,12 +60,24 @@ a:hover {
   background-color: #ff645b; }
 
 .project1-box:hover .overlay {
+  -webkit-transform: translateX(100%);
+  -moz-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  -o-transform: translateX(100%);
   transform: translateX(100%);
+  -webkit-transition: 1s ease-out;
+  -moz-transition: 1s ease-out;
+  -ms-transition: 1s ease-out;
+  -o-transition: 1s ease-out;
   transition: 1s ease-out; }
 
 .project1-box:hover .project-text {
   color: black;
-  transition: color 1s ease-out; }
+  -webkit-transition: 1s ease-out;
+  -moz-transition: 1s ease-out;
+  -ms-transition: 1s ease-out;
+  -o-transition: 1s ease-out;
+  transition: 1s ease-out; }
 
 .project2-box {
   position: relative;
@@ -67,12 +86,24 @@ a:hover {
   background-color: #36d7c7; }
 
 .project2-box:hover .overlay {
+  -webkit-transform: translateX(100%);
+  -moz-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  -o-transform: translateX(100%);
   transform: translateX(100%);
+  -webkit-transition: 1s ease-out;
+  -moz-transition: 1s ease-out;
+  -ms-transition: 1s ease-out;
+  -o-transition: 1s ease-out;
   transition: 1s ease-out; }
 
 .project2-box:hover .project-text {
   color: black;
-  transition: color 1s ease-out; }
+  -webkit-transition: 1s ease-out;
+  -moz-transition: 1s ease-out;
+  -ms-transition: 1s ease-out;
+  -o-transition: 1s ease-out;
+  transition: 1s ease-out; }
 
 .project3-box {
   position: relative;
@@ -81,12 +112,24 @@ a:hover {
   background-color: #f9690e; }
 
 .project3-box:hover .overlay {
+  -webkit-transform: translateX(100%);
+  -moz-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  -o-transform: translateX(100%);
   transform: translateX(100%);
+  -webkit-transition: 1s ease-out;
+  -moz-transition: 1s ease-out;
+  -ms-transition: 1s ease-out;
+  -o-transition: 1s ease-out;
   transition: 1s ease-out; }
 
 .project3-box:hover .project-text {
   color: black;
-  transition: color 1s ease-out; }
+  -webkit-transition: 1s ease-out;
+  -moz-transition: 1s ease-out;
+  -ms-transition: 1s ease-out;
+  -o-transition: 1s ease-out;
+  transition: 1s ease-out; }
 
 .project4-box {
   position: relative;
@@ -95,15 +138,31 @@ a:hover {
   background-color: #23c4f5; }
 
 .project4-box:hover .overlay {
+  -webkit-transform: translateX(100%);
+  -moz-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  -o-transform: translateX(100%);
   transform: translateX(100%);
+  -webkit-transition: 1s ease-out;
+  -moz-transition: 1s ease-out;
+  -ms-transition: 1s ease-out;
+  -o-transition: 1s ease-out;
   transition: 1s ease-out; }
 
 .project4-box:hover .project-text {
   color: black;
-  transition: color 1s ease-out; }
+  -webkit-transition: 1s ease-out;
+  -moz-transition: 1s ease-out;
+  -ms-transition: 1s ease-out;
+  -o-transition: 1s ease-out;
+  transition: 1s ease-out; }
 
 .project-header {
   top: 50%;
+  -webkit-transform: translate(0, -50%);
+  -moz-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  -o-transform: translate(0, -50%);
   transform: translate(0, -50%);
   position: relative;
   padding-left: 10%; }
@@ -113,24 +172,11 @@ a:hover {
   color: white; }
 
 .project-title {
-  font-size: 36px;
+  font-size: 42px;
   font-weight: 700; }
 
 .project-subtitle {
-  font-size: 14px;
+  font-size: 18px;
   margin-left: 2px; }
-
-.outer {
-  background: url("../img/pink-dolphin-feature-image.jpg");
-  height: 100px; }
-
-.inner {
-  background-color: url("../img/pink-dolphin-feature-image.jpg");
-  height: 75px; }
-
-.text {
-  background: white;
-  opacity: 0.5;
-  font-size: 50px; }
 
 /*# sourceMappingURL=style.css.map */

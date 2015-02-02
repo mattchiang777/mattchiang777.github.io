@@ -4,32 +4,25 @@
         <title>Matt Chiang</title>
         <meta charset="utf-8" />
         <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
-        <link href='http://fonts.googleapis.com/css?family=Dosis:500' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="css/normalize.css">
         <!-- <link type="text/css" rel="stylesheet" href="css/bootstrap.css"> -->
         <link type="text/css" rel="stylesheet" href="css/style.css">
     </head>
     <body>
         <div class="container">
-<!--             <div class="about-box">
-                <img src="img/profile.jpg" alt="">
-                <div class="outer">
-                    <div class="inner"><span class="text">Hello!</span></div>
-                </div>
-                <div class="about-header">
-                    Matt Chiang <br>
-                    UC Berkeley, 2015 <br>
-                    AKA Phattyphresh <br>
-                    Just ’bout dat action boss
+            <div class="about-box">
+                <!-- <img src="img/profile.jpg" alt=""> -->
+                <div class="about-header-container">
+                    <canvas id="about-header" width="800" height="165"></canvas>
                 </div>
                 <div class="about-tagline">
-                    Website is still under construction! Portfolio is available below.
+                    Website is under construction! Portfolio is available below.
                 </div>
                 <div class="about-desc">
-                    Which is why Van Gundy is doing everything he can to downplay the unusual circumstances surrounding Smith’s return. He has tries to write it off as a means of getting other players a chance to show what they can do, but the teams dramatic turnaround makes it appear Smith’s presence hung over the locker room like a dark cloud, and Smith has always said he’s an easy target for criticism.
-“I don’t know Josh’s mind-set,” Van Gundy said. “I’m sure he’ll want to come back and play well. I think almost everybody does when they come back and play their old teams. So sure, he’ll want to play well.”
+                    Within the past year, I've had the honor of learning from and working alongside some great people in pushing out projects I never imagined I'd do. These experiences have inspired me to go further in learning and doing everything design-related, emphasis on <strong>doing</strong> &mdash; hence the Marshawn Lynch <br> shoutout above.  <br> <br> <br>
+                    Currently, I'm seeking a summer internship related to <br>product/UI/UX design. Contact me at: <br> <strong>mattchiang777@gmail.com</strong>
                 </div>
-            </div> -->
+            </div>
             <a href="http://calthetatau.com">
                 <div class="project1-box">
                     <div class="overlay"></div>
@@ -65,5 +58,20 @@
             </div>
         </div>
     </body>
+    <script>
+        var ctx = document.getElementById('about-header').getContext("2d");
+
+        ctx.font = "Bold 42px 'Helvetica'";
+
+        ctx.fillStyle = "#333333";
+        ctx.fillRect(0, 0, 800, 165);
+
+        ctx.globalCompositeOperation = 'destination-out';
+        ctx.fillText("MATT CHIANG", 0, 32);
+        ctx.fillText("UC BERKELEY, 2015", 0, 75);
+        ctx.fillText("AKA PHATTYPHRESH", 0, 118);
+        ctx.fillText("JUST ’BOUT THAT ACTION BOSS", 0, 161);
+
+    </script>
 </html>
         
