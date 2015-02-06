@@ -143,3 +143,35 @@ a:hover {
 	font-size: $subtitle-size;
 	margin-left: 2px;
 }
+
+@media only screen
+and (max-width: 800px) {
+	.about-header-container {
+		display: none;
+	}
+}
+
+@media only screen 
+and (max-device-width: 800px) {
+	.about-header-container {
+		display: none;
+	}
+	.about-tagline {
+		font-size: $tagline-size * 2;
+	}
+	.about-desc {
+		font-size: $subtitle-size * 2;
+	}
+		@each $i in (1, 2, 3, 4) {
+			.project#{$i}-box {
+			height: 300px;
+		}
+	}
+	.project-title {
+		font-size: $title-size * 1.5;
+	}
+
+	.project-subtitle {
+		font-size: $subtitle-size * 1.5;
+	}
+}

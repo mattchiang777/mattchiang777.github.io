@@ -184,4 +184,35 @@ a:hover {
   font-size: 18px;
   margin-left: 2px; }
 
+@media only screen and (max-width: 800px) {
+  .about-header-container {
+    display: none; } }
+@media only screen and (max-device-width: 800px) {
+  .about-header-container {
+    display: none; }
+
+  .about-tagline {
+    font-size: 60px; }
+
+  .about-desc {
+    font-size: 36px; }
+
+  .project1-box {
+    height: 300px; }
+
+  .project2-box {
+    height: 300px; }
+
+  .project3-box {
+    height: 300px; }
+
+  .project4-box {
+    height: 300px; }
+
+  .project-title {
+    font-size: 63px; }
+
+  .project-subtitle {
+    font-size: 27px; } }
+
 /*# sourceMappingURL=style.css.map */
