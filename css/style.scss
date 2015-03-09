@@ -46,6 +46,11 @@ a:hover {
 	-ms-text-decoration: none;
 	-o-text-decoration: none;
 	text-decoration: none;
+	color: $about-body-white;
+}
+
+a:hover {
+	color: $gray;
 }
 
 .container {
