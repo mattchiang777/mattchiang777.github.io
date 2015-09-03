@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAWA,yCAAqB;EACpB,MAAM,EAAE,OAAe;;AAGxB,qBAAsB;EACrB,MAAM,EAAE,MAAgB;;AAGzB,oBAAqB;EACpB,MAAM,EAAE,MAAe;;AAGxB,iBAAkB;EACjB,MAAM,EAAE,QAAiB;;AAG1B,mBAAoB;EAEnB,KAAK,EA3BQ,GAAG;EA4BhB,MAAM,EA3BK,GAAG;EA4Bd,gBAAgB,EA3BT,OAAkB",
+"sources": ["_section-break.scss"],
+"names": [],
+"file": "_section-break.css"
+}

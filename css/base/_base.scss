@@ -1,0 +1,23 @@
+// _base.scss
+
+@import '../tools/variables';
+
+$a-color: #008CBA;
+$a-hover-color: #009fd4;
+
+body {
+	background-color: $bg-color;
+	position: relative;
+	// background-image: url("../img/profile.jpeg");
+	// background-repeat: no-repeat;
+	// background-size: cover;
+}
+
+a {
+	color: $a-color;
+  	line-height: inherit;
+  	text-decoration: none;
+	&:hover {
+		color: $a-hover-color;
+	}
+}

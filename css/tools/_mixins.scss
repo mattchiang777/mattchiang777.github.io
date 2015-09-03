@@ -1,0 +1,8 @@
+// _mixins.scss
+
+// public mixins
+@mixin transition($duration, $transition: linear) {
+	transition: {
+		duration: $duration;
+	}
+}

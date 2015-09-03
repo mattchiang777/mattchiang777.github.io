@@ -1,0 +1,33 @@
+// _section-break.scss
+
+$line-length: 15%;
+$thickness: 1px;
+$color: rgb(187, 187, 187);
+$margin-large: 12rem; //200px;
+$margin-medium: 6rem; //100px;
+$margin-small: 3rem; //50px;
+
+// need media query for small
+
+.section-break-large {
+	margin: $margin-large 0;
+}
+
+.section-break-medium {
+	margin: $margin-medium 0;
+}
+
+.section-break-small {
+	margin: $margin-small 0;
+}
+
+.section-break-xs {
+	margin: $margin-small/2 0;
+}
+
+.section-break-line {
+	@extend .section-break-large;
+	width: $line-length;
+	height: $thickness;
+	background-color: $color;
+}

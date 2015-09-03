@@ -1,0 +1,28 @@
+.list-roles-title {
+  font-size: 1.5rem; }
+
+.list-roles-ol, .list-roles-ul {
+  text-align: left;
+  text-color: rgba(0, 0, 0, 0.7);
+  margin-bottom: 0; }
+
+.list-roles-ol {
+  font-size: 1.1rem; }
+  .list-roles-ol a:hover {
+    color: #000; }
+
+.list-roles-ul {
+  list-style: none;
+  line-height: 1.8; }
+  @media screen and (max-width: 40em) {
+    .list-roles-ul {
+      margin-top: 2em; } }
+
+.list-roles li {
+  padding: 0px 6px; }
+
+.role {
+  font-weight: 700;
+  letter-spacing: 0.02em; }
+
+/*# sourceMappingURL=_list-roles.css.map */

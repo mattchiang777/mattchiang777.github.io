@@ -1,0 +1,27 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700|Lora);
+body {
+  font-size: 1em;
+  font-family: "Open Sans", Helvetica, sans-serif;
+  line-height: 1.6; }
+
+.copy, .blurb {
+  color: rgba(0, 0, 0, 0.7);
+  font-family: "Open Sans", Helvetica, sans-serif;
+  text-align: left; }
+
+.blurb {
+  text-align: center; }
+
+.project-title, .project-subtitle, .project-title-subsection {
+  color: rgba(0, 0, 0, 0.7);
+  font-family: "Open Sans", Helvetica, sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: left; }
+
+.project-subtitle {
+  font-size: 1.2rem;
+  font-weight: 400; }
+
+/*# sourceMappingURL=_project-header.css.map */

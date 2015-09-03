@@ -1,0 +1,27 @@
+// _nav-personal.scss
+
+@import "../objects/nav";
+
+$hover-color: #000;
+$font-size: 1em;
+$padding-top-bot: 0;
+$padding-left-right: 3em;
+
+.nav-personal {
+	@extend %nav;
+	font-size: $font-size;
+	text-align: left;
+	a {
+		padding-right: $padding-left-right;
+		transition: 0.1s;
+		&:hover {
+			color: $hover-color;
+		}
+	}
+	@media screen and (max-width: 500px) {
+		a {
+			padding-right: $padding-left-right/2;
+		}
+	}
+}
+

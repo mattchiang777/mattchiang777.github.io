@@ -1,81 +1,62 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Matt Chiang</title>
-        <meta charset="utf-8" />
-        <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="css/normalize.css">
-        <link type="text/css" rel="stylesheet" href="css/style.css">
-    </head>
-    <body>
-        <div class="container">
-            <div class="about-box">
-                <div class="about-header-container">
-                    <canvas id="about-header" width="800" height="165"></canvas>
-                </div>
-                <div class="about-tagline">
-                    Website is under construction! But my portfolio is available below.
-                </div>
-                <div class="about-desc">
-                    Hi! My name's Matt and I like making things, especially on the web and mobile. I like to see projects through from beginning to end and my background knowledge in business and engineering helps me achieve that. I have experience in front-end web development, programming, iOS development, interaction design, and visual design, though I'm trying to get better at the last two.
-                    <br>
-                    <br>
-                    My projects share a common theme centered around people and bringing out the best in them. I make things for people because I care about them, and I care about them because I care about their stories.
+<html class="no-js" lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Matt Chiang</title>
+	<link rel="stylesheet" href="css/style.css" />
+    <script src="js/vendor/modernizr.js"></script>
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/script.js"></script>
+</head>
+<body>
+	<div class="image-wrapper-profile">
 
-                    <!-- Last summer, I worked on a <a href="http://oddlook.co"><u><b>startup</b></u></a> and did everything from ideation to development to design to marketing. The exposure to design I had during that time inspired me to go further in learning everything I could about it, from graphic design to interaction design to even the psychology behind the design of doors. I'm continually soaking up whatever I can get my hands on that's related to design and working on projects that interest me, which are shown below. Hope you enjoy! --><br> <br> <br>
-                    Currently, I'm doing a 10-week internship at Kohl's Digital <br> doing front-end web development. Contact me at: <br> <strong>mattchiang777@gmail.com</strong>
-                </div>
-            </div>
-            <a href="https://medium.com/@matthewraychiang/theta-tau-redesign-529a69a2d4d8">
-                <div class="project1-box">
-                    <div class="overlay"></div>
-                    <div class="project-header">
-                        <span class="project-title project-text">Theta Tau</span> <br>
-                        <span class="project-subtitle project-text">Website Redesign</span>
-                    </div>
-                </div>
-            </a>
-            <a href="https://medium.com/@matthewraychiang/pursuit-of-happyness-72dec03a13e6">
-                <div class="project2-box">
-                    <div class="overlay"></div>
-                    <div class="project-header">
-                        <span class="project-title project-text">Happyness</span> <br>
-                        <span class="project-subtitle project-text">iOS Application / Lifestyle & Health</span>
-                    </div>
-                </div>
-            </a>
-            <a href="https://medium.com/@matthewraychiang/ozone-6b05bd66707a">
-                <div class="project3-box">
-                    <div class="overlay"></div>
-                    <div class="project-header">
-                        <span class="project-title project-text">Ozone!</span> <br>
-                        <span class="project-subtitle project-text">iOS Application / Games</span>
-                    </div>
-                </div>
-            </a>
-            <div class="project4-box">
-                <div class="overlay"></div>
-                <div class="project-header">
-                    <span class="project-title project-text">Food Fight!</span> <br>
-                    <span class="project-subtitle project-text">Educational Toy / Children's Nutrition</span>
-                </div>
-            </div>
-        </div>
-    </body>
-    <script>
-        var ctx = document.getElementById('about-header').getContext("2d");
+		<div class="row">
+			<div class="section-break-xs small-6 small-centered columns"></div>
+			<nav class="small-9 medium-10 columns nav-personal">
+				<a href="">Portfolio</a>
+				<a href="">The Goods</a>
+				<a href="#about">About</a>
+			</nav>
+			<div class="small-3 medium-2 columns logo">
+				<a href="index.html"><img src="img/albmattlogo2.png" alt=""></a>
+			</div>
+		</div>
 
-        ctx.font = "Bold 42px 'Helvetica'";
+		<!-- <div class="row">
+			Yo,  my name is Matt and I like making things! I'm in my last semester at UC Berkeley looking for a product design position in the Bay Area. My background experiences in business and engineering helps me succeed cross-functionally. I have experience in front-end web development, programming, mobile development, interaction design, and visual design...but I"m always trying to get better.
 
-        ctx.fillStyle = "#333333";
-        ctx.fillRect(0, 0, 800, 165);
+			Design, to me, is like making the perfect gift for someone without them telling you what they want or even knowing what they want.
 
-        ctx.globalCompositeOperation = 'destination-out';
-        ctx.fillText("Matt Chiang", 0, 35);
-        ctx.fillText("UC Berkeley, 2015", 0, 78);
-        ctx.fillText("Aspiring Designer", 0, 121);
-        // ctx.fillText("JUST ’BOUT THAT ACTION BOSS", 0, 161);
+			Twitter, Pinterest
+		</div> -->
 
-    </script>
+	</div>
+
+	<div class="image-wrapper-project">
+		<a href="kohls.html">
+			<div class="overlay">
+				<!-- <span>Kohl's</span> -->
+			</div>
+			<span class="image-wrapper-style">Kohl's</span>
+			<img src="img/ec-designprocess/ec-home-img.png" alt="">
+		</a>
+	</div>
+
+	<div class="image-wrapper-project">
+		<div class="overlay"></div>
+		<span class="image-wrapper-style">Happyness</span>
+		<img src="img/happyness/home-img.jpg" alt="">
+	</div>
+
+		<div class="row" id="about">
+			Yo,  my name is Matt and I like making things! I'm in my last semester at UC Berkeley looking for a product design position in the Bay Area. My background experiences in business and engineering helps me succeed cross-functionally. I have experience in front-end web development, programming, mobile development, interaction design, and visual design...but I"m always trying to get better.
+
+			Design, to me, is like making the perfect gift for someone without them telling you what they want or even knowing what they want.
+
+			Twitter, Pinterest
+		</div>
+
+</body>
 </html>
-        

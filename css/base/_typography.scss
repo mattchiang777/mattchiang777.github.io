@@ -1,0 +1,44 @@
+// base/_typography.scss
+
+// google fonts
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700|Lato:400,300);
+
+// font variables
+$open-sans: 'Open Sans', Helvetica, sans-serif;
+$lora: 'Lato', Georgia, serif;
+$lato: 'Lato';
+
+$text-color: rgba(0, 0, 0, 0.7);
+$base-font-size: 1em;
+$base-font-family: $open-sans;
+$base-font-weight: 400;
+$bold-font-weight: 700;
+$margin-size: 50px;
+
+body {
+  	// color: $text-color;
+  	font-size: $base-font-size;
+  	font-family: $base-font-family;
+  	// font-weight: $base-font-weight;
+  	line-height: 1.6;
+}
+
+.image-wrapper-style {
+	font-size: 4 * $base-font-size;
+	font-weight: 300;
+	font-family: $lato;
+	letter-spacing: 0.07em;
+	text-transform: uppercase;
+}
+
+.copy {
+	color: $text-color;
+	font-family: $open-sans;
+	text-align: left;
+	// margin-bottom: $margin-size;
+}
+
+.blurb {
+	@extend .copy;
+	text-align: center;
+}
