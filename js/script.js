@@ -48,4 +48,39 @@ $(document).ready(function() {
 		$nav.css('margin-top', marginAmount);
 	});
 
+	/******** Social media icons ********/
+
+	// Re-ordering the icon-set when screen resizes
+	var widthLimit = 650;
+	var iconSet = $("#icon-set");
+	var topContainer = $("#icon-set-container-top");
+	var botContainer = $("#icon-set-container-bot");
+	if ($(window).width() <= widthLimit) {
+			iconSet.remove().appendTo(botContainer);
+		} else {
+			iconSet.remove().appendTo(topContainer);
+	}
+
+	$(window).on('resize', function() {
+		if ($(window).width() <= widthLimit) {
+			iconSet.remove().appendTo(botContainer);
+		} else {
+			iconSet.remove().appendTo(topContainer);
+		}
+	});
+
+	/******** scrollUp ********/
+	$(function () {
+		$.scrollUp({
+			scrollName: 'scrollUp', // Element ID
+			scrollDistance: '2000', // Distance from top before showing element (px)
+			scrollSpeed: 300, // Speed back to top (ms)
+			animation: 'fade', // Fade, slide, none
+			animationInSpeed: 200, // Animation in speed (ms)
+			animationOutSpeed: 200, // Animation out speed (ms)
+			scrollText: '', // Text for element
+			activeOverlay: false, // Set CSS color to display scrollUp active point, e.g '#00FFFF'
+		});
+	});
+
 });
