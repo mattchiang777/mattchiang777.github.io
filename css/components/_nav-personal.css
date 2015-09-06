@@ -5,12 +5,12 @@
   font-size: 1em;
   text-align: left; }
   .nav-personal a {
-    padding-right: 3em;
+    margin-right: 3em;
     transition: 0.1s; }
     .nav-personal a:hover {
       color: #000; }
   @media screen and (max-width: 500px) {
     .nav-personal a {
-      padding-right: 1.5em; } }
+      margin-right: 1.5em; } }
 
 /*# sourceMappingURL=_nav-personal.css.map */

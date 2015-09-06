@@ -12,7 +12,7 @@ $padding-left-right: 3em;
 	font-size: $font-size;
 	text-align: left;
 	a {
-		padding-right: $padding-left-right;
+		margin-right: $padding-left-right;
 		transition: 0.1s;
 		&:hover {
 			color: $hover-color;
@@ -20,7 +20,7 @@ $padding-left-right: 3em;
 	}
 	@media screen and (max-width: 500px) {
 		a {
-			padding-right: $padding-left-right/2;
+			margin-right: $padding-left-right/2;
 		}
 	}
 }
