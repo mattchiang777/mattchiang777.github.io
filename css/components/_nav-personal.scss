@@ -9,7 +9,7 @@ $padding-left-right: 3em;
 
 .nav-personal {
 	@extend %nav;
-	font-size: $font-size;
+	font-size: $font-size * 1.1;
 	text-align: left;
 	a {
 		margin-right: $padding-left-right;
