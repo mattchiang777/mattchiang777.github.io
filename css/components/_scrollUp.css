@@ -1,0 +1,10 @@
+#scrollUp {
+  bottom: 20px;
+  right: 20px;
+  width: 38px;
+  /* Width of image */
+  height: 38px;
+  /* Height of image */
+  background-image: url("../img/icons/top.png"); }
+
+/*# sourceMappingURL=_scrollUp.css.map */

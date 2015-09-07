@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": "AAEA,gBAAiB;EAChB,QAAQ,EAAE,QAAQ;EAClB,uBAAO;IACN,QAAQ,EAAE,QAAQ;IAClB,GAAG,EAAE,CAAC;IACN,IAAI,EAAE,CAAC;IACP,KAAK,EAAE,IAAI;IACX,MAAM,EAAE,IAAI",
+"mappings": "AAEA,gBAAiB;EAEhB,MAAM,EAAE,KAAK;EACb,uBAAO;IAIN,KAAK,EAAE,IAAI;IACX,MAAM,EAAE,IAAI",
 "sources": ["_vid-placeholder.scss"],
 "names": [],
 "file": "_vid-placeholder.css"

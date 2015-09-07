@@ -24,13 +24,13 @@ $(document).ready(function() {
 		oldImg.toggleClass('image-placeholder carousel-image');
 	});
 
-	// Video embedding
-	$('.vid-placeholder').click(function() {
-		var video = '<iframe src="'+ $(this).attr('data-video') +'"></iframe>';
-		// var video = '<iframe width="560" height="315" src="https://www.youtube.com/embed/X1dVUaHJB0g" frameborder="0" allowfullscreen></iframe>';
-		// $(this).find('img').hide();
-		$(this).append(video);
-	});
+	// Video embedding and muting
+	// $('.vid-placeholder').click(function() {
+	// 	var video = '<iframe src="'+ $(this).attr('data-video') +'"></iframe>';
+	// 	// var video = '<iframe width="560" height="315" src="https://www.youtube.com/embed/X1dVUaHJB0g" frameborder="0" allowfullscreen></iframe>';
+	// 	// $(this).find('img').hide();
+	// 	$(this).append(video);
+	// });
 
 	/******** Navigation ********/
 

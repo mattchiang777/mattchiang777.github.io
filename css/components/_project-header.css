@@ -1,8 +1,15 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700|Lora);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700|Lato:400,300);
 body {
   font-size: 1em;
   font-family: "Open Sans", Helvetica, sans-serif;
   line-height: 1.6; }
+
+.image-wrapper-text {
+  font-size: 4em;
+  font-weight: 300;
+  font-family: "Lato";
+  letter-spacing: 0.07em;
+  text-transform: uppercase; }
 
 .copy, .blurb {
   color: rgba(0, 0, 0, 0.7);
