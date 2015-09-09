@@ -54,5 +54,8 @@
     background-size: cover;
     will-change: transform;
     z-index: -1; }
+    @media screen and (max-width: 1024px) {
+      .image-wrapper-profile::before {
+        background-image: url("../img/Matt-LinkedIn-Headshot-4.JPG"); } }
 
 /*# sourceMappingURL=_image-wrapper.css.map */

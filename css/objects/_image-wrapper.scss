@@ -59,6 +59,9 @@
 		height: 100%;
 		top: 0;
 		left: 0;
+		@media screen and (max-width: 1024px) {
+			background-image: url("../img/Matt-LinkedIn-Headshot-4.JPG");	
+		}
 		background-image: url("../img/bevel.jpg");
 		background-repeat: no-repeat;
 		background-size: cover;
