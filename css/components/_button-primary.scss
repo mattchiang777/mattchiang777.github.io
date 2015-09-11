@@ -1,0 +1,20 @@
+// _button-primary.scss
+
+@import '../base/typography';
+@import '../tools/mixins';
+
+.button-primary {
+	font: {
+		family: $open-sans;
+	}
+	background-color: transparent;
+	color: $text-color;
+	border-style: solid;
+  	border-width: 1px;
+  	border-color: $text-color;
+  	@include transition(300ms);
+  	&:hover, &:focus {
+		background-color: $text-color;
+  	}
+}
+

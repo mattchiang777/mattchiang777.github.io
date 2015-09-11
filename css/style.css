@@ -1,5 +1,6 @@
 /* style.scss */
-@import url(vendors/foundation.css);
+@import url(vendors/foundation.min.css);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700|Lato:400,300);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700|Lato:400,300);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700|Lato:400,300);
 body {
@@ -26,7 +27,7 @@ body {
   text-transform: uppercase; }
 
 .copy, .blurb {
-  color: rgba(0, 0, 0, 0.7);
+  color: rgba(0, 0, 0, 0.75);
   font-family: "Open Sans", Helvetica, sans-serif;
   text-align: left; }
 
@@ -168,7 +169,7 @@ body {
   text-transform: uppercase; }
 
 .copy, .blurb {
-  color: rgba(0, 0, 0, 0.7);
+  color: rgba(0, 0, 0, 0.75);
   font-family: "Open Sans", Helvetica, sans-serif;
   text-align: left; }
 
@@ -176,7 +177,7 @@ body {
   text-align: center; }
 
 .project-title, .project-subtitle, .project-title-subsection {
-  color: rgba(0, 0, 0, 0.7);
+  color: rgba(0, 0, 0, 0.75);
   font-family: "Open Sans", Helvetica, sans-serif;
   font-size: 2rem;
   font-weight: 700;
@@ -188,7 +189,8 @@ body {
   font-weight: 400; }
 
 .list-roles-title {
-  font-size: 1.5rem; }
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem; }
 
 .list-roles-ol, .list-roles-ul {
   text-align: left;
@@ -203,6 +205,8 @@ body {
 .list-roles-ul {
   list-style: none;
   line-height: 1.8; }
+  .list-roles-ul a:hover {
+    color: #000; }
   @media screen and (max-width: 40em) {
     .list-roles-ul {
       margin-top: 2em; } }
@@ -222,14 +226,14 @@ body {
 
 .image-placeholder {
   opacity: 1;
-  transition: 0.5s; }
+  transition-duration: 0.5s; }
 
 .carousel-image {
   position: absolute;
   top: 0;
   left: 0;
   opacity: 0;
-  transition: 0.5s; }
+  transition-duration: 0.5s; }
 
 .image-menu {
   text-align: center; }
@@ -239,18 +243,51 @@ body {
   opacity: 0.5; }
   .thumbnail:hover, .thumbnail-selected:hover, .thumbnail:focus, .thumbnail-selected:focus {
     opacity: 1;
-    transition: 0.5s; }
+    transition-duration: 0.5s; }
 
 .thumbnail-selected {
   opacity: 1; }
 
 #scrollUp {
-  bottom: 20px;
-  right: 20px;
+  bottom: 25px;
+  right: 25px;
   width: 38px;
   /* Width of image */
   height: 38px;
   /* Height of image */
   background-image: url("../img/icons/top.png"); }
+  #scrollUp:hover {
+    opacity: 0.8; }
+
+body {
+  font-size: 1em;
+  font-family: "Open Sans", Helvetica, sans-serif;
+  line-height: 1.6; }
+
+.image-wrapper-text {
+  font-size: 4em;
+  font-weight: 300;
+  font-family: "Lato";
+  letter-spacing: 0.07em;
+  text-transform: uppercase; }
+
+.copy, .blurb {
+  color: rgba(0, 0, 0, 0.75);
+  font-family: "Open Sans", Helvetica, sans-serif;
+  text-align: left; }
+
+.blurb {
+  text-align: center; }
+
+.button-primary {
+  font-family: "Open Sans", Helvetica, sans-serif;
+  background-color: transparent;
+  color: rgba(0, 0, 0, 0.75);
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(0, 0, 0, 0.75);
+  transition-duration: 300ms; }
+  .button-primary:hover, .button-primary:focus {
+    background-color: rgba(0, 0, 0, 0.75); }
 
 /*# sourceMappingURL=style.css.map */

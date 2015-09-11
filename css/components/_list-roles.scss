@@ -7,6 +7,7 @@ $role-font-weight: 700;
 
 .list-roles-title {
 	font-size: 1.5rem;
+	margin-bottom: 0.5rem;
 }
 
 %list-roles {
@@ -28,6 +29,9 @@ $role-font-weight: 700;
 	@extend %list-roles;
 	list-style: none;
 	line-height: 1.8;
+	a:hover {
+		color: #000;
+	}
 	@media screen and (max-width: 40em) {
 		margin-top: 2em;
 	}

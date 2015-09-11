@@ -1,5 +1,6 @@
 .list-roles-title {
-  font-size: 1.5rem; }
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem; }
 
 .list-roles-ol, .list-roles-ul {
   text-align: left;
@@ -14,6 +15,8 @@
 .list-roles-ul {
   list-style: none;
   line-height: 1.8; }
+  .list-roles-ul a:hover {
+    color: #000; }
   @media screen and (max-width: 40em) {
     .list-roles-ul {
       margin-top: 2em; } }

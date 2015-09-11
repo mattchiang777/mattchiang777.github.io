@@ -2,6 +2,8 @@
 
 // The carousel-container contains the image-container which is where the selected image is shown. An image-menu contains the thumbnails to choose from
 
+@import '../tools/mixins';
+
 $unselected-opacity: 0.5;
 $selected-opacity: 1;
 $carousel-menu-buffer-size: 2rem;
@@ -20,7 +22,7 @@ $margin-size: 100px;
 // image-placeholder determines which image is shown
 .image-placeholder {
 	opacity: 1;
-	transition: 0.5s;
+	@include transition(0.5s);
 }
 
 // carousel-images are hidden
@@ -29,7 +31,7 @@ $margin-size: 100px;
 	top: 0;
 	left: 0;
 	opacity: 0;
-	transition: 0.5s;
+	@include transition(0.5s);
 }
 
 .image-menu {
@@ -41,7 +43,7 @@ $margin-size: 100px;
 	opacity: $unselected-opacity;
 	&:hover, &:focus {
 		opacity: $selected-opacity;
-		transition: 0.5s;
+		@include transition(0.5s);
 	}
 }
 

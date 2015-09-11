@@ -1,9 +1,12 @@
 // components/scrollUp.scss
 
 #scrollUp {
-    bottom: 20px;
-    right: 20px;
+    bottom: 25px;
+    right: 25px;
     width: 38px;    /* Width of image */
     height: 38px;   /* Height of image */
     background-image: url("../img/icons/top.png");
+    &:hover {
+    	opacity: 0.8;
+    }
 }

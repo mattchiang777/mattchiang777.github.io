@@ -6,14 +6,14 @@
 
 .image-placeholder {
   opacity: 1;
-  transition: 0.5s; }
+  transition-duration: 0.5s; }
 
 .carousel-image {
   position: absolute;
   top: 0;
   left: 0;
   opacity: 0;
-  transition: 0.5s; }
+  transition-duration: 0.5s; }
 
 .image-menu {
   text-align: center; }
@@ -23,7 +23,7 @@
   opacity: 0.5; }
   .thumbnail:hover, .thumbnail-selected:hover, .thumbnail:focus, .thumbnail-selected:focus {
     opacity: 1;
-    transition: 0.5s; }
+    transition-duration: 0.5s; }
 
 .thumbnail-selected {
   opacity: 1; }

@@ -1,7 +1,7 @@
 /* style.scss */
 
 // partials
-@import 'vendors/foundation.css';
+@import 'vendors/foundation.min.css';
 @import 'tools/variables';
 @import 'tools/mixins';
 @import 'base/base';
@@ -18,3 +18,4 @@
 @import 'components/list-roles';
 @import 'components/carousel';
 @import 'components/scrollUp';
+@import 'components/button-primary';
