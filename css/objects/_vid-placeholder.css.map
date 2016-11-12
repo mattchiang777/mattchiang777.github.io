@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAEA,gBAAiB;EAEhB,MAAM,EAAE,KAAK;EACb,uBAAO;IAIN,KAAK,EAAE,IAAI;IACX,MAAM,EAAE,IAAI",
-"sources": ["_vid-placeholder.scss"],
-"names": [],
-"file": "_vid-placeholder.css"
-}

@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAWA,2CAAqB;EACpB,MAAM,EAAE,OAAe;EACvB,oCAAqC;IAFtC,2CAAqB;MAGnB,MAAM,EAAE,MAAiB;;AAI3B,4CAAsB;EACrB,MAAM,EAAE,MAAgB;EACxB,oCAAqC;IAFtC,4CAAsB;MAGpB,MAAM,EAAE,MAAkB;;AAI5B,2CAAqB;EACpB,MAAM,EAAE,MAAe;;AAGxB,iBAAkB;EACjB,MAAM,EAAE,QAAiB;;AAK1B,mEAAoB;EACnB,KAAK,EAlCQ,GAAG;EAmChB,MAAM,EAlCK,GAAG;EAmCd,gBAAgB,EAlCT,OAAkB",
-"sources": ["_section-break.scss"],
-"names": [],
-"file": "_section-break.css"
-}
