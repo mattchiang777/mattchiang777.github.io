@@ -7,3 +7,6 @@
 [submodule "pin-msg"]
 	path = pin-msg
 	url = https://github.com/mattchiang777/pin-msg.git
+[submodule "gsp"]
+	path = gsp
+	url = https://github.com/mattchiang777/gsp.git
