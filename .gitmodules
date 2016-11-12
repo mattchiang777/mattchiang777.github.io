@@ -4,9 +4,9 @@
 [submodule "oscilloscope"]
 	path = oscilloscope
 	url = https://github.com/mattchiang777/oscilloscope.git
-[submodule "pin-msg"]
-	path = pin-msg
-	url = https://github.com/mattchiang777/pin-msg.git
 [submodule "gsp"]
 	path = gsp
 	url = https://github.com/mattchiang777/gsp.git
+[submodule "pinning"]
+	path = pinning
+	url = https://github.com/mattchiang777/pinning.git
