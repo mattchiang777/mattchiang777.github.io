@@ -10,3 +10,6 @@
 [submodule "pinning"]
 	path = pinning
 	url = https://github.com/mattchiang777/pinning.git
+[submodule "winlike82"]
+	path = winlike82
+	url = https://github.com/mattchiang777/winlike82.git
