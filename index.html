@@ -5,21 +5,125 @@
 	<title>Matt Chiang Projects</title>
 	<link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
 	<style>
+		* {
+			box-sizing: border-box;
+		}
+
 		body {
-			background-color: #fbfbfb;
+			background-color: #fdfdfd;
 			font-family: 'Inconsolata', Helvetica;
 			font-size: 15px;
 		}
-		.container {
-			width: 300px;
+
+		header {
 			margin-top: 150px;
 			margin-left: 100px;
+			margin-bottom: 125px;
+		}
+
+		.container {
+			width: 100vw;
+		}
+
+		.flex-container {
+			display: flex;
+			justify-content: space-evenly;
+			flex-wrap: wrap;
+		}
+
+		img {
+			display: block;
+			width: 300px;
+			height: 300px;
+			object-fit: cover;
+			transition: 0.2s ease-out;
+		}
+
+		.image-container {
+			overflow: hidden;
+		}
+
+		.image-container:hover img {
+			transform: scale(1.2);
+			filter: brightness(50%);
+		}
+
+		a {
+			text-decoration: none;
+			display: inline;
+			color: black;
+		}
+		
+		span {
+			padding: 5px;
+		}
+
+		span:hover {
+			color: white;
+			background-color: red;
+		}
+
+		a:visited {
+			color: black;
+		}
+
+		.flex-project-container {
+			display: flex;
+			flex-direction: column;
+		}
+
+		.flex-project-container > div {
+			margin: 25px auto;
 		}
 	</style>
 </head>
 <body>
 	<div class="container">
-		Yo! Looks like you've stumbled upon my Github pages which I use to host works in progress, sketches, and explorations. If nothing is here, keep moving along...
+		<header>
+			Works in progress, sketches, and explorations.
+		</header>
+		<div class="flex-container">
+			<div class="flex-project-container">
+				<a href="https://mattchiang777.github.io/winlike82/">
+					<div class="image-container">
+						<img src="assets/images/winlike82.jpg" alt="">
+					</div>
+				</a>
+				<div>
+					<a href="https://mattchiang777.github.io/winlike82/"><span>Win Like '82</span></a>
+				</div>
+			</div>
+			<div class="flex-project-container">
+				<a href="https://mattchiang777.github.io/gsp">
+					<div class="image-container">
+						<img src="assets/images/gsp.png" alt="">
+					</div>
+					<div>
+						<a href="https://mattchiang777.github.io/gsp"><span>GS&P</span></a>
+					</div>
+				</a>
+			</div>
+			<div class="flex-project-container">
+				<a href="https://mattchiang777.github.io/lissajous/">
+					<div class="image-container">
+						<img src="assets/images/lissajous.png" alt="">
+					</div>
+					<div>
+						<a href="https://mattchiang777.github.io/lissajous/"><span>Lissajous</span></a>
+					</div>
+				</a>
+			</div>
+			<div class="flex-project-container">
+				<a href="https://mattchiang777.github.io/oscilloscope/">
+					<div class="image-container">
+						<img src="assets/images/osc.png" alt="">
+					</div>
+					<div>
+						<a href="https://mattchiang777.github.io/oscilloscope/"><span>Oscilloscope</span></a>
+					</div>
+				</a>
+			</div>
+		</div>
 	</div>
 </body>
 </html>
